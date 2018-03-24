@@ -1,34 +1,37 @@
-*
-{
-    margin: 0;
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
 }
 
-header
-{
-        background-image:linear-gradient(rgba(250, 246, 246, 0.5), rgba(247, 243, 243, 0.5)) url(C:\Users\SAY\lc101\html-me-something\img\justice.jpg);
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    background: #35424a
+    color: #ffffff
+    padding-top: 30px
+    min-width: height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
 
-.main-nav
-{
-    float: right;
-    list-style: none;
-    margin-top: 30px;
+header a{
+    color:#ffffff
+    text-emphasis: none;
+    text-emphasis: transfor; uppercase;
+    font-size: 16px;
 }
 
-.main-nav li
-{
-    display: inline-block;
+header ul {
+    margin:0;
+    padding:0;
 }
 
-.main-nav li a
-{
-    color: orangered;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-}   
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
